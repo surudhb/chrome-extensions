@@ -1,0 +1,16 @@
+{
+  "name": "Happy Birthday!",
+  "version": "0.1",
+  "description": "An extension celebrating you :)",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["itsallyou.js"]
+    }
+  ],
+  "web_accessible_resources": ["assets/*.jpg"],
+  "manifest_version": 2
+}
