@@ -1,3 +1,3 @@
 # Chrome Extensions
 
-## Messing about with chrome extensions
+Messing about with chrome extensions
